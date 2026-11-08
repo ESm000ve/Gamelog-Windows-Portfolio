@@ -1,0 +1,39 @@
+.share-export {
+  padding: 16px 24px 24px;
+  min-width: 0;
+}
+.share-export-panel {
+  display: grid;
+  gap: 16px;
+  padding-top: 16px;
+}
+.share-export p {
+  margin: 0;
+  color: var(--app-secondary-label);
+  line-height: 1.5;
+}
+.share-export textarea {
+  width: 100%;
+  font-family: var(--app-font-mono);
+}
+.share-export-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.share-export-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--app-separator);
+  border-radius: 8px;
+}
+.share-export-status {
+  color: var(--app-secondary-label);
+  font-size: 13px;
+}
+@media (max-width: 640px) {
+  .share-export {
+    padding: 12px 16px 16px;
+  }
+}

@@ -1,0 +1,10 @@
+.global-search-control {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  min-width: 0;
+}
+.global-search-control > button {
+  flex-shrink: 0;
+}

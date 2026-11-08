@@ -1,0 +1,60 @@
+/* ─── StatusChip ─────────────────────────────────────────────────────────── */
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: 1px solid var(--app-separator);
+  font-size: var(--font-size-base);
+  font-family: var(--app-font-text);
+  transition:
+    background 120ms ease,
+    color 120ms ease,
+    opacity 120ms ease,
+    border-color 120ms ease;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.status-chip.compact {
+  padding: 3px 10px;
+}
+
+.status-chip:not(.compact) {
+  padding: 6px var(--space-3);
+}
+
+.status-chip.active {
+  color: var(--app-label);
+  font-weight: 500;
+  opacity: 1;
+}
+
+.status-chip:not(.active) {
+  color: var(--app-secondary-label);
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.status-chip:hover {
+  opacity: 1;
+}
+
+.status-chip-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-chip-count {
+  color: var(--app-tertiary-label);
+  font-size: var(--font-size-base);
+  margin-left: 2px;
+  font-variant-numeric: tabular-nums;
+}

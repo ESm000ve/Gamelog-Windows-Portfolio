@@ -1,0 +1,99 @@
+.sidebar {
+  width: 252px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: var(--app-sidebar-bg);
+  padding: 0 8px 12px;
+  overflow-y: auto;
+  transition: width 120ms ease;
+}
+.sidebar.compact {
+  width: 56px;
+}
+.sidebar-pane-toggle {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+}
+.sidebar-pane-toggle button {
+  min-width: 32px;
+  width: 32px;
+  padding: 0;
+}
+.sidebar-add-game {
+  padding: 4px 4px 16px;
+}
+.sidebar-add-game button {
+  width: 100%;
+  gap: 8px;
+  justify-content: center;
+}
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.sidebar-nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 12px;
+  min-height: 36px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--app-label);
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.sidebar-nav-item svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.sidebar-nav-item:hover {
+  background: var(--app-fill);
+}
+.sidebar-nav-item.active {
+  background: var(--app-secondary-fill);
+  font-weight: 400;
+}
+.sidebar-nav-item.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 16px;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--app-accent);
+}
+.sidebar-nav-item:focus-visible {
+  outline: 2px solid var(--app-accent);
+  outline-offset: -2px;
+}
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 24px;
+}
+.sidebar.compact .sidebar-nav-item {
+  padding: 0 10px;
+}
+.sidebar.compact .sidebar-add-game {
+  padding: 4px 0 16px;
+}
+.sidebar.compact .sidebar-add-game button {
+  min-width: 36px;
+  padding: 0;
+}
+.sidebar.compact :is(.sidebar-nav-item, .sidebar-add-game) span {
+  display: none;
+}
+.windows-navigation-drawer {
+  background: var(--app-window-bg);
+  color: var(--app-label);
+}

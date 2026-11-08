@@ -1,0 +1,8 @@
+:root[data-feedback-hidden="true"] .fui-Toaster,
+:root[data-feedback-hidden="true"] .fui-Toaster * {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+.feedback-toast {
+  max-width: calc(100vw - 32px);
+}

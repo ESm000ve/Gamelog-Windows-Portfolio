@@ -1,0 +1,18 @@
+.library-platform-source {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  margin-top: 16px;
+}
+.library-filter-help {
+  font-size: 12px;
+  color: var(--app-secondary-label);
+  margin-top: 8px;
+}
+
+.library-filter-error {
+  font-size: 12px;
+  color: var(--app-red);
+  margin: 8px 0 0;
+}

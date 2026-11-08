@@ -1,0 +1,124 @@
+.assistant-dialog-body {
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+.assistant-help {
+  margin: 0;
+  color: var(--app-secondary-label);
+  font-size: 14px;
+  line-height: 20px;
+}
+.assistant-request {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.assistant-request label {
+  flex: 1;
+  min-width: min(260px, 100%);
+}
+.assistant-dialog-body label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--app-label);
+  min-width: 0;
+}
+.assistant-criteria {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.assistant-criteria legend {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.assistant-notice {
+  margin: 0;
+  padding: 12px;
+  background: var(--app-fill);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  line-height: 20px;
+}
+.assistant-chips {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 4px;
+}
+.assistant-preview {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+  display: grid;
+  gap: 0;
+}
+.assistant-preview li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--app-separator);
+  display: grid;
+  gap: 6px;
+}
+.assistant-preview li label {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.assistant-preview li span {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--app-secondary-label);
+}
+.assistant-dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+  background: var(--app-secondary-bg);
+  border-top: 1px solid var(--app-separator);
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+.assistant-dialog-body h3 {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+.recap-result {
+  padding: 16px;
+  border: 1px solid var(--app-separator);
+  border-radius: var(--radius-lg);
+}
+.recap-result li {
+  margin: 8px 0;
+  line-height: 20px;
+}
+.recap-sources {
+  padding: 12px 0;
+}
+.recap-sources p {
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 20px;
+}
+@media (max-width: 600px) {
+  .assistant-criteria {
+    grid-template-columns: 1fr;
+  }
+  .assistant-dialog-body {
+    padding: 16px;
+  }
+  .assistant-dialog-footer {
+    padding: 16px;
+  }
+}

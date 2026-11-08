@@ -1,0 +1,223 @@
+/* ─── gamelog — global reset & base styles ───────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* Hide scrollbars everywhere */
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: var(--font-size-base, 13px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--app-font-text);
+  background: var(--app-window-bg);
+  color: var(--app-label);
+  min-height: 100vh;
+  overflow: hidden; /* outer shell never scrolls — inner panes do */
+}
+
+/* Remove default button / input styles */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+  padding: 0;
+}
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--app-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+input,
+textarea,
+select {
+  font-family: var(--app-font-text);
+  font-size: var(--font-size-base, 13px);
+  color: var(--app-label);
+  background: transparent;
+  border: none;
+  outline: none;
+}
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--app-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+a {
+  color: var(--app-accent);
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* App root fills the viewport */
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Allow scrolling in Storybook (both Canvas and Docs pages) */
+body.sb-show-main,
+body.sb-main-padded,
+body.sb-main-fullscreen {
+  overflow: auto !important;
+}
+
+/* ── Accessibility utilities ────────────────────────────────────────────── */
+
+/* Visually hidden but accessible to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 9999;
+  padding: var(--space-2) var(--space-4);
+  background: var(--app-accent);
+  color: var(--app-accent-foreground, var(--app-white));
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  text-decoration: none;
+  outline: 3px solid var(--app-accent);
+}
+
+.skip-link:focus {
+  top: var(--space-2);
+  left: var(--space-4);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--app-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Layout Utilities ────────────────────────────────────────────────────── */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-3 {
+  gap: 12px;
+}
+.gap-4 {
+  gap: 16px;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+
+/* ── Typography Utilities ────────────────────────────────────────────────── */
+.text-display {
+  font-family: var(--app-font-display);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--app-label);
+  letter-spacing: -0.015em;
+  line-height: 1;
+}
+.text-body {
+  font-family: var(--app-font-text);
+  font-size: var(--font-size-base);
+  color: var(--app-label);
+}
+.text-muted {
+  color: var(--app-secondary-label);
+}
+
+/* ── UI Components Utilities ─────────────────────────────────────────────── */
+.glass-panel {
+  background: var(--app-toolbar-bg);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--app-separator);
+}
+
+.hover-scale {
+  transition:
+    transform 0.2s cubic-bezier(0.2, 0, 0, 1),
+    box-shadow 0.2s ease;
+}
+.hover-scale:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+.btn-icon:hover {
+  background: var(--app-fill);
+}

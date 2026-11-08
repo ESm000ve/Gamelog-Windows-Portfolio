@@ -1,0 +1,86 @@
+/* ─── Settings Screen ────────────────────────────────────────────────────── */
+
+.settings-screen {
+  padding: var(--space-10) 60px;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.settings-screen > .app-page-header {
+  margin-bottom: 24px;
+}
+
+/* ─── Settings Section Card ──────────────────────────────────────────────── */
+
+.settings-card {
+  background: var(--app-fill);
+  border-radius: var(--radius-xl);
+  padding: 30px;
+  border: 1px solid var(--app-separator);
+  margin-bottom: 30px;
+}
+
+.settings-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: var(--space-4);
+}
+
+.settings-card-header h2 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+
+.settings-card-description {
+  color: var(--app-secondary-label);
+  margin-bottom: var(--space-6);
+  line-height: 1.5;
+}
+
+.settings-field-label {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--app-label);
+  margin-bottom: var(--space-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ─── Accent Color Swatches ──────────────────────────────────────────────── */
+
+.settings-accent-grid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.settings-accent-swatch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: var(--space-2) 14px;
+  border-radius: 20px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 150ms ease;
+  background: var(--app-tertiary-bg);
+  border: 1px solid var(--app-separator);
+  color: var(--app-label);
+}
+
+.settings-accent-swatch.selected {
+  font-weight: 700;
+}
+
+.settings-accent-swatch-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}

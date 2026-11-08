@@ -1,0 +1,641 @@
+/* Windows 11: Segoe UI Variable, 14/20 body, 4px controls, 8px surfaces.
+   Sources: Microsoft Learn /windows/apps/design/signature-experiences/{typography,geometry}. */
+:root[data-platform="windows"] {
+  --app-font-text: "Segoe UI Variable", "Segoe UI", sans-serif;
+  --app-font-display: "Segoe UI Variable Display", "Segoe UI Variable", "Segoe UI", sans-serif;
+  --app-font-mono: Consolas, "Cascadia Code", monospace;
+  --font-size-xs: 12px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 28px;
+  --radius-xs: 4px;
+  --radius-sm: 4px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 8px;
+  --radius-2xl: 8px;
+  --radius-full: 4px;
+  --app-bg: #fafafa;
+  --app-window-bg: #f3f3f3;
+  --app-secondary-bg: #ffffff;
+  --app-tertiary-bg: #f9f9f9;
+  --app-elevated-bg: #ffffff;
+  --app-card-bg: #ffffff;
+  --app-sidebar-bg: transparent;
+  --app-toolbar-bg: transparent;
+  --app-label: #1a1a1a;
+  --app-secondary-label: #5d5d5d;
+  --app-tertiary-label: #707070;
+  --app-quaternary-label: #a0a0a0;
+  --app-white: #ffffff;
+  --app-separator: rgba(0, 0, 0, 0.075);
+  --app-opaque-separator: #d1d1d1;
+  --app-fill: rgba(0, 0, 0, 0.035);
+  --app-secondary-fill: rgba(0, 0, 0, 0.055);
+  --app-tertiary-fill: rgba(0, 0, 0, 0.025);
+  --app-quaternary-fill: rgba(0, 0, 0, 0.015);
+  --app-accent: #0067c0;
+  --app-accent-foreground: #ffffff;
+  --app-blue: #0067c0;
+  --app-green: #0f7b0f;
+  --app-orange: #9d5d00;
+  --app-red: #c42b1c;
+  --app-purple: #744da9;
+  --app-indigo: #4f52b2;
+  --app-pink: #a82f77;
+  --app-yellow: #9d5d00;
+  --app-blue-subtle: #e6f1fb;
+  --app-green-subtle: #dff6dd;
+  --app-orange-subtle: #fff4ce;
+  --app-red-subtle: #fde7e9;
+  --app-purple-subtle: #f0e9fa;
+  --app-pink-subtle: #fbe9f3;
+  --app-yellow-subtle: #fff4ce;
+  --shadow-sm: 0 1px 2px #00000008;
+  --shadow-md: 0 4px 12px #00000014;
+  --shadow-lg: 0 8px 16px #00000024, 0 0 2px #0000001f;
+  --shadow-xl: 0 24px 64px #00000033, 0 2px 8px #0000001a;
+  --app-accent-subtle: color-mix(in srgb, var(--app-accent) 10%, transparent);
+  --app-accent-border: color-mix(in srgb, var(--app-accent) 35%, transparent);
+  --app-accent-hover: color-mix(in srgb, var(--app-accent) 90%, white);
+  --app-accent-pressed: color-mix(in srgb, var(--app-accent) 82%, white);
+}
+:root[data-platform="windows"][data-theme="dark"] {
+  --app-bg: #272727;
+  --app-window-bg: #202020;
+  --app-secondary-bg: #2d2d2d;
+  --app-tertiary-bg: #323232;
+  --app-elevated-bg: #2c2c2c;
+  --app-card-bg: #2d2d2d;
+  --app-label: #ffffff;
+  --app-secondary-label: #c5c5c5;
+  --app-tertiary-label: #a5a5a5;
+  --app-quaternary-label: #777777;
+  --app-separator: rgba(255, 255, 255, 0.075);
+  --app-opaque-separator: #4d4d4d;
+  --app-fill: rgba(255, 255, 255, 0.045);
+  --app-secondary-fill: rgba(255, 255, 255, 0.065);
+  --app-tertiary-fill: rgba(255, 255, 255, 0.03);
+  --app-quaternary-fill: rgba(255, 255, 255, 0.02);
+  --app-accent: #60cdff;
+  --app-accent-foreground: #003e73;
+  --app-blue: #60cdff;
+  --app-green: #6ccb5f;
+  --app-orange: #fce100;
+  --app-red: #ff99a4;
+  --app-purple: #c4a7e7;
+  --app-indigo: #b3b5f3;
+  --app-pink: #f4a3d0;
+  --app-yellow: #fce100;
+  --app-blue-subtle: #15364a;
+  --app-green-subtle: #283b27;
+  --app-orange-subtle: #433c20;
+  --app-red-subtle: #442726;
+  --app-purple-subtle: #392f48;
+  --app-pink-subtle: #452d3b;
+  --app-yellow-subtle: #433c20;
+}
+:root[data-platform="windows"][data-accent="indigo"] {
+  --app-accent: #4f52b2;
+}
+:root[data-platform="windows"][data-accent="green"] {
+  --app-accent: #0f7b0f;
+}
+:root[data-platform="windows"][data-accent="orange"] {
+  --app-accent: #9d5d00;
+}
+:root[data-platform="windows"][data-accent="pink"] {
+  --app-accent: #a82f77;
+}
+:root[data-platform="windows"][data-accent="gold"] {
+  --app-accent: #8a6600;
+}
+:root[data-platform="windows"][data-accent="purple"] {
+  --app-accent: #744da9;
+}
+:root[data-platform="windows"][data-accent="red"] {
+  --app-accent: #c42b1c;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="indigo"] {
+  --app-accent: #b3b5f3;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="green"] {
+  --app-accent: #6ccb5f;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="orange"] {
+  --app-accent: #ffb570;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="pink"] {
+  --app-accent: #f4a3d0;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="gold"] {
+  --app-accent: #fce100;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="purple"] {
+  --app-accent: #c4a7e7;
+}
+:root[data-platform="windows"][data-theme="dark"][data-accent="red"] {
+  --app-accent: #ff99a4;
+}
+html,
+body,
+#root,
+#root > .platform-provider {
+  height: 100%;
+  min-height: 0;
+}
+#root > .platform-provider {
+  background: var(--app-window-bg);
+  color: var(--app-label);
+  font-family: var(--app-font-text);
+}
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+.app-workspace {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  align-items: stretch;
+}
+.app-content {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+.app-content > * {
+  min-width: 0;
+}
+.app-titlebar {
+  display: grid;
+  grid-template-columns: 236px minmax(240px, 560px) 1fr;
+  align-items: center;
+  gap: 20px;
+  height: 48px;
+  flex-shrink: 0;
+  padding: 0 16px;
+  -webkit-app-region: drag;
+}
+.app-titlebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  user-select: none;
+  align-self: stretch;
+  -webkit-app-region: drag;
+}
+.app-titlebar-brand * {
+  -webkit-app-region: drag;
+}
+.app-titlebar-brand svg {
+  color: var(--app-accent);
+}
+.app-titlebar-search {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  -webkit-app-region: drag;
+  min-width: 0;
+}
+.app-titlebar-search .fui-Combobox {
+  -webkit-app-region: no-drag;
+}
+.app-titlebar-trailing {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: stretch;
+  -webkit-app-region: drag;
+}
+.app-titlebar :is(button, input, [role="combobox"]) {
+  -webkit-app-region: no-drag;
+}
+:root[data-desktop="true"] .app-titlebar {
+  padding-right: 150px;
+}
+:root[data-platform="windows"] .app-content {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid var(--app-separator);
+  border-radius: 8px;
+  background: var(--app-bg);
+}
+:root[data-platform="windows"] .app-content > :is(main, div, section) {
+  align-self: stretch;
+  flex: 1;
+}
+:root[data-platform="windows"] .app-content h1 {
+  font-family: var(--app-font-display) !important;
+  font-size: 28px !important;
+  line-height: 36px !important;
+  font-weight: 600 !important;
+  letter-spacing: normal !important;
+}
+:root[data-platform="windows"] .app-content h2 {
+  font-weight: 600 !important;
+  letter-spacing: normal !important;
+}
+:root[data-platform="windows"] [style*="text-transform: uppercase"] {
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+:root[data-platform="windows"] [style*="backdrop-filter"] {
+  backdrop-filter: none !important;
+}
+:root[data-platform="windows"] .glass-panel {
+  backdrop-filter: none;
+}
+:root[data-platform="windows"] .hover-scale:hover {
+  transform: none;
+}
+:root[data-platform="windows"] :is(button, input, textarea, select) {
+  font-family: var(--app-font-text);
+}
+:root[data-platform="windows"]
+  :is(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select):not(
+    .fui-Input__input
+  ):not(.fui-SearchBox__input):not(.fui-Combobox__input) {
+  border-radius: 4px !important;
+  font-size: 14px !important;
+  border-bottom-color: var(--app-tertiary-label);
+  background-color: var(--app-secondary-bg);
+}
+:root[data-platform="windows"] :is(input, textarea, select):focus-visible {
+  outline: 2px solid var(--app-accent);
+  outline-offset: -1px;
+}
+
+:root[data-platform="windows"] .cover-card-btn {
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid var(--app-separator);
+}
+:root[data-platform="windows"] .cover-card-btn.hovered:not(.selectable) {
+  transform: none;
+  box-shadow: var(--shadow-md);
+}
+:root[data-platform="windows"] .cover-game-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 2px;
+  color: var(--app-label);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:root[data-platform="windows"] .settings-screen {
+  width: 100%;
+  max-width: 1000px;
+  padding: 24px 32px;
+  overflow-y: auto;
+}
+:root[data-platform="windows"] .settings-title {
+  margin-bottom: 24px;
+}
+:root[data-platform="windows"] .settings-card {
+  background: var(--app-secondary-bg);
+  border: 1px solid var(--app-separator);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+:root[data-platform="windows"] .settings-field-label {
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+:root[data-platform="windows"] .settings-accent-swatch {
+  border-radius: 4px;
+}
+:root[data-platform="windows"] .app-content :is(section, header) {
+  max-width: 100%;
+}
+:root[data-platform="windows"] * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--app-tertiary-label) transparent;
+}
+:root[data-platform="windows"] *::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  height: 8px;
+}
+:root[data-platform="windows"] *::-webkit-scrollbar-thumb {
+  background: var(--app-tertiary-label);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+.fui-DialogSurface.app-dialog-surface {
+  width: min(var(--dialog-width, 540px), calc(100vw - 32px)) !important;
+  max-width: calc(100vw - 32px) !important;
+  max-height: calc(100dvh - 64px);
+  padding: 0 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: var(--app-label);
+  background: var(--app-secondary-bg) !important;
+}
+.app-dialog-content {
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.fui-MenuPopover.app-menu-surface {
+  border-radius: 8px !important;
+  min-width: 184px;
+  max-height: min(500px, calc(100dvh - 80px));
+  overflow-y: auto;
+}
+.fui-PopoverSurface.app-filter-surface {
+  width: min(400px, calc(100vw - 32px));
+  max-height: min(620px, calc(100dvh - 96px));
+  overflow-y: auto;
+  padding: 20px !important;
+  border-radius: 8px !important;
+}
+.app-filter-group {
+  display: grid;
+  gap: 4px;
+  margin-top: 20px;
+}
+.app-filter-group h4 {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.app-filter-group-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px 8px;
+}
+.app-page {
+  padding: 24px 32px;
+  overflow-y: auto;
+  min-height: 0;
+}
+.app-page-header {
+  margin-bottom: 24px;
+}
+.app-page-description {
+  margin-top: 8px;
+  color: var(--app-secondary-label);
+  line-height: 20px;
+}
+@media (max-width: 1000px) {
+  .app-titlebar {
+    grid-template-columns: 48px minmax(200px, 560px) 1fr;
+  }
+  .app-titlebar-brand span {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .app-titlebar {
+    grid-template-columns: minmax(160px, 1fr) 36px;
+    padding: 0 12px;
+    gap: 8px;
+  }
+  .app-titlebar-brand {
+    display: none;
+  }
+  :root[data-desktop="true"] .app-titlebar {
+    padding-right: 148px;
+  }
+
+  :root[data-platform="windows"] .settings-screen {
+    padding: 20px;
+  }
+  .app-page {
+    padding: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media (forced-colors: active) {
+  .app-content,
+  .sidebar-nav-item.active {
+    border: 1px solid CanvasText !important;
+  }
+  .sidebar-nav-item.active::before {
+    background: Highlight !important;
+  }
+}
+
+.global-search-result {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 0;
+}
+.global-search-result img {
+  width: 32px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.global-search-result span {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+.global-search-result strong {
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.global-search-result small {
+  font-size: 12px;
+  color: var(--app-secondary-label);
+}
+
+.status-tab-count {
+  font-size: 12px;
+  color: var(--app-secondary-label);
+  margin-left: 8px;
+}
+
+:root[data-platform="windows"] .page-toolbar {
+  height: auto !important;
+  min-height: 84px;
+  padding: 24px 32px 16px !important;
+  flex-wrap: wrap;
+  gap: 16px;
+  -webkit-app-region: no-drag !important;
+  background: var(--app-bg) !important;
+}
+.page-toolbar > div {
+  min-width: 0;
+}
+.page-toolbar h1 {
+  margin: 0;
+}
+.page-toolbar [style*="gap: 10px"] {
+  flex-wrap: wrap;
+}
+:root[data-platform="windows"] .settings-title {
+  margin-bottom: 24px !important;
+}
+:root[data-platform="windows"] .modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+:root[data-platform="windows"] .modal-header {
+  padding: 24px 24px 16px;
+}
+:root[data-platform="windows"] .settings-card-description {
+  line-height: 20px;
+}
+:root[data-platform="windows"] .app-content [style*="font-size: 10px"],
+:root[data-platform="windows"] .app-content [style*="font-size: 11px"] {
+  font-size: 12px !important;
+}
+:root[data-platform="windows"][data-desktop="true"] body,
+:root[data-platform="windows"][data-desktop="true"] .platform-provider {
+  /* The backdrop may retain the OS appearance when the app theme differs. */
+  background: var(--app-window-bg) !important;
+}
+
+.app-dialog-content {
+  flex: 1;
+}
+
+#root > .platform-provider,
+.app-shell {
+  width: 100%;
+  min-width: 0;
+}
+.app-workspace {
+  width: 100%;
+}
+
+.year-review-body {
+  padding: 24px;
+}
+.year-review-step {
+  font-size: 12px;
+  color: var(--app-secondary-label);
+  margin-bottom: 20px;
+}
+.year-review-section {
+  min-height: 260px;
+}
+.year-review-section h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.year-review-section p {
+  line-height: 20px;
+  color: var(--app-secondary-label);
+  margin: 12px 0;
+}
+.year-review-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.year-review-metrics > div {
+  padding: 16px;
+  border: 1px solid var(--app-separator);
+  border-radius: 8px;
+}
+.year-review-metrics dt {
+  font-size: 12px;
+  color: var(--app-secondary-label);
+}
+.year-review-metrics dd {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 8px 0 0;
+  overflow-wrap: anywhere;
+}
+.year-review-list {
+  list-style: none;
+  padding: 0;
+}
+.year-review-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--app-separator);
+}
+.year-review-list img {
+  width: 36px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.year-review-list strong {
+  flex: 1;
+}
+.year-review-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 24px;
+  background: var(--app-tertiary-bg);
+  border-top: 1px solid var(--app-separator);
+  flex-shrink: 0;
+}
+:root[data-platform="windows"] .app-content button[style*="box-shadow"] {
+  box-shadow: none !important;
+}
+
+:root[data-platform="windows"] .activity-screen {
+  padding: 24px 32px !important;
+}
+:root[data-platform="windows"] .systems-screen {
+  background: var(--app-bg) !important;
+}
+:root[data-platform="windows"] .system-card {
+  background: var(--app-secondary-bg) !important;
+  border-width: 1px !important;
+}
+:root[data-platform="windows"] .system-card:hover {
+  background: var(--app-tertiary-bg) !important;
+}
+:root[data-platform="windows"] .app-button {
+  gap: 8px;
+}
+:root[data-platform="windows"] .app-content [style*="linear-gradient"]:is(button, [role="button"]) {
+  background: var(--app-secondary-bg) !important;
+  color: var(--app-label) !important;
+  box-shadow: none !important;
+}
+:root[data-platform="windows"]
+  .app-content
+  [style*="linear-gradient"]:is(button, [role="button"])
+  :is(p, svg) {
+  color: var(--app-secondary-label) !important;
+}

@@ -1,0 +1,40 @@
+/* ─── StarRating ─────────────────────────────────────────────────────────── */
+
+.star-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star-rating-value {
+  margin-left: var(--space-1);
+  color: var(--app-yellow);
+  font-weight: 500;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--app-font-text);
+}
+
+/* ─── StarRatingInput ────────────────────────────────────────────────────── */
+
+.star-rating-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline-offset: 4px;
+}
+
+.star-rating-input-star {
+  display: inline-flex;
+}
+
+.star-rating-input-half {
+  overflow: hidden;
+  transition: transform 80ms ease;
+}
+
+.star-rating-input-half:hover {
+  transform: scale(1.15);
+}

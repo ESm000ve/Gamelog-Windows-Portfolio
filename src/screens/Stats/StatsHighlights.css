@@ -1,0 +1,96 @@
+.statistics-highlights {
+  display: grid;
+  gap: 20px;
+}
+.statistics-highlights h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.statistics-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 20px;
+}
+.statistics-highlight-card {
+  min-width: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--app-secondary-bg);
+  border: 1px solid var(--app-separator);
+  border-radius: var(--radius-2xl);
+}
+.statistics-highlight-card h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.statistics-highlight-help {
+  color: var(--app-secondary-label);
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+}
+.statistics-highlight-scope {
+  color: var(--app-secondary-label);
+  font-size: 12px;
+  font-weight: 400;
+}
+.statistics-highlight-number {
+  color: var(--app-label);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+.statistics-highlight-number span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.statistics-game-ranking {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.statistics-game-ranking li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.statistics-game-ranking img {
+  width: 30px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.statistics-game-link {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--app-accent);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.statistics-game-link:hover {
+  text-decoration: underline;
+}
+.statistics-game-value {
+  white-space: nowrap;
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--app-label);
+}

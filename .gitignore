@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-electron/
+release/
+storybook-static/
+
+# Env / secrets
+.env*
+!.env.example
+
+# OS / editor cruft
+.DS_Store
+._*
+*.log
+npm-debug.log*
+
+# Cowork / Claude tooling (not part of the app)
+.agents/
+.claude/
+apple-hig/
+ui-design/
+ui-design-system/
+ux-researcher/
+guidelines/
+
+# Browser test reports
+test-results/
+playwright-report/
+
+# Private local archive and publication output (never publish this checkout's history)
+.local-only/
+.codex/
+*.tsbuildinfo
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite*
+gamelog-backup-*.json

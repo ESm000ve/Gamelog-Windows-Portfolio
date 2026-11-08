@@ -1,0 +1,638 @@
+{
+  "version": 2,
+  "exported": "2026-11-08T12:00:00.000Z",
+  "games": [
+    {
+      "igdbId": 990001,
+      "title": "Solstice",
+      "slug": "portfolio-0",
+      "developer": "Fictional Studio",
+      "releaseYear": 2020,
+      "firstReleaseDate": 1609459200,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Adventure",
+        "Role-playing (RPG)"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VlYjc2ZCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY3MzczYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2VlYjc2ZCIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzY3MzczYyIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjNjczNzNjIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiM2NzM3M2MiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPlNPTFNUSUNFPC90ZXh0Pjx0ZXh0IHg9IjMwIiB5PSI0MzciIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIuNjUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBsZXR0ZXItc3BhY2luZz0iMyI+QSBGSUNUSU9OQUwgQURWRU5UVVJFPC90ZXh0Pjwvc3ZnPg==",
+      "coverColor": "#67373c",
+      "timeToBeat": {
+        "finish": 4,
+        "master": 12
+      },
+      "addedAt": 1794139200000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990002,
+      "title": "Tidelands",
+      "slug": "portfolio-1",
+      "developer": "Fictional Studio",
+      "releaseYear": 2021,
+      "firstReleaseDate": 1609545600,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzdjZDRkMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE2M2U1NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTcwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iIzdjZDRkMCIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzE2M2U1NSIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjMTYzZTU1IiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiMxNjNlNTUiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPlRJREVMQU5EUzwvdGV4dD48dGV4dCB4PSIzMCIgeT0iNDM3IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iLjY1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgbGV0dGVyLXNwYWNpbmc9IjMiPkEgRklDVElPTkFMIEFEVkVOVFVSRTwvdGV4dD48L3N2Zz4=",
+      "coverColor": "#163e55",
+      "timeToBeat": {
+        "finish": 6,
+        "master": 15
+      },
+      "addedAt": 1794052800000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990003,
+      "title": "After Hours",
+      "slug": "portfolio-2",
+      "developer": "Fictional Studio",
+      "releaseYear": 2022,
+      "firstReleaseDate": 1609632000,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Indie",
+        "Simulator"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2Y5OThiNSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzQyMjM0YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMjMwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2Y5OThiNSIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzQyMjM0YiIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjNDIyMzRiIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiM0MjIzNGIiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPkFGVEVSIEhPVVJTPC90ZXh0Pjx0ZXh0IHg9IjMwIiB5PSI0MzciIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIuNjUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBsZXR0ZXItc3BhY2luZz0iMyI+QSBGSUNUSU9OQUwgQURWRU5UVVJFPC90ZXh0Pjwvc3ZnPg==",
+      "coverColor": "#42234b",
+      "timeToBeat": {
+        "finish": 8,
+        "master": 18
+      },
+      "addedAt": 1793966400000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990004,
+      "title": "Orbital",
+      "slug": "portfolio-3",
+      "developer": "Fictional Studio",
+      "releaseYear": 2023,
+      "firstReleaseDate": 1609718400,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Adventure",
+        "Shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzhiYWZmNSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE4Mjc0ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iIzhiYWZmNSIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzE4Mjc0ZCIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjMTgyNzRkIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiMxODI3NGQiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPk9SQklUQUw8L3RleHQ+PHRleHQgeD0iMzAiIHk9IjQzNyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii42NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGxldHRlci1zcGFjaW5nPSIzIj5BIEZJQ1RJT05BTCBBRFZFTlRVUkU8L3RleHQ+PC9zdmc+",
+      "coverColor": "#18274d",
+      "timeToBeat": {
+        "finish": 10,
+        "master": 21
+      },
+      "addedAt": 1793880000000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990005,
+      "title": "Wildflower",
+      "slug": "portfolio-4",
+      "developer": "Fictional Studio",
+      "releaseYear": 2024,
+      "firstReleaseDate": 1609804800,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Adventure",
+        "Role-playing (RPG)"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2NlZGE4YyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzMzNWI0NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTcwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2NlZGE4YyIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzMzNWI0NSIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjMzM1YjQ1IiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiMzMzViNDUiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPldJTERGTE9XRVI8L3RleHQ+PHRleHQgeD0iMzAiIHk9IjQzNyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii42NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGxldHRlci1zcGFjaW5nPSIzIj5BIEZJQ1RJT05BTCBBRFZFTlRVUkU8L3RleHQ+PC9zdmc+",
+      "coverColor": "#335b45",
+      "timeToBeat": {
+        "finish": 12,
+        "master": 24
+      },
+      "addedAt": 1793793600000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990006,
+      "title": "The Long Way",
+      "slug": "portfolio-5",
+      "developer": "Fictional Studio",
+      "releaseYear": 2025,
+      "firstReleaseDate": 1609891200,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2UzOTU2OCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY0Mzc0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMjMwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2UzOTU2OCIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzY0Mzc0MyIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjNjQzNzQzIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiM2NDM3NDMiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPlRIRSBMT05HIFdBWTwvdGV4dD48dGV4dCB4PSIzMCIgeT0iNDM3IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iLjY1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgbGV0dGVyLXNwYWNpbmc9IjMiPkEgRklDVElPTkFMIEFEVkVOVFVSRTwvdGV4dD48L3N2Zz4=",
+      "coverColor": "#643743",
+      "timeToBeat": {
+        "finish": 14,
+        "master": 27
+      },
+      "addedAt": 1793707200000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990007,
+      "title": "Monument",
+      "slug": "portfolio-6",
+      "developer": "Fictional Studio",
+      "releaseYear": 2020,
+      "firstReleaseDate": 1609977600,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Indie",
+        "Simulator"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VlYjc2ZCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY3MzczYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2VlYjc2ZCIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzY3MzczYyIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjNjczNzNjIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiM2NzM3M2MiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPk1PTlVNRU5UPC90ZXh0Pjx0ZXh0IHg9IjMwIiB5PSI0MzciIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIuNjUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBsZXR0ZXItc3BhY2luZz0iMyI+QSBGSUNUSU9OQUwgQURWRU5UVVJFPC90ZXh0Pjwvc3ZnPg==",
+      "coverColor": "#67373c",
+      "timeToBeat": {
+        "finish": 16,
+        "master": 30
+      },
+      "addedAt": 1793620800000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990008,
+      "title": "Stillwater",
+      "slug": "portfolio-7",
+      "developer": "Fictional Studio",
+      "releaseYear": 2021,
+      "firstReleaseDate": 1610064000,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Adventure",
+        "Shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzdjZDRkMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE2M2U1NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTcwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iIzdjZDRkMCIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzE2M2U1NSIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjMTYzZTU1IiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiMxNjNlNTUiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPlNUSUxMV0FURVI8L3RleHQ+PHRleHQgeD0iMzAiIHk9IjQzNyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii42NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGxldHRlci1zcGFjaW5nPSIzIj5BIEZJQ1RJT05BTCBBRFZFTlRVUkU8L3RleHQ+PC9zdmc+",
+      "coverColor": "#163e55",
+      "timeToBeat": {
+        "finish": 18,
+        "master": 33
+      },
+      "addedAt": 1793534400000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990009,
+      "title": "Neon Drift",
+      "slug": "portfolio-8",
+      "developer": "Fictional Studio",
+      "releaseYear": 2022,
+      "firstReleaseDate": 1610150400,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Adventure",
+        "Role-playing (RPG)"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2Y5OThiNSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzQyMjM0YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMjMwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2Y5OThiNSIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzQyMjM0YiIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjNDIyMzRiIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiM0MjIzNGIiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPk5FT04gRFJJRlQ8L3RleHQ+PHRleHQgeD0iMzAiIHk9IjQzNyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii42NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGxldHRlci1zcGFjaW5nPSIzIj5BIEZJQ1RJT05BTCBBRFZFTlRVUkU8L3RleHQ+PC9zdmc+",
+      "coverColor": "#42234b",
+      "timeToBeat": {
+        "finish": 20,
+        "master": 36
+      },
+      "addedAt": 1793448000000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990010,
+      "title": "Sable Sky",
+      "slug": "portfolio-9",
+      "developer": "Fictional Studio",
+      "releaseYear": 2023,
+      "firstReleaseDate": 1610236800,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzhiYWZmNSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE4Mjc0ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iIzhiYWZmNSIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzE4Mjc0ZCIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjMTgyNzRkIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiMxODI3NGQiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPlNBQkxFIFNLWTwvdGV4dD48dGV4dCB4PSIzMCIgeT0iNDM3IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iLjY1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgbGV0dGVyLXNwYWNpbmc9IjMiPkEgRklDVElPTkFMIEFEVkVOVFVSRTwvdGV4dD48L3N2Zz4=",
+      "coverColor": "#18274d",
+      "timeToBeat": {
+        "finish": 22,
+        "master": 39
+      },
+      "addedAt": 1793361600000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990011,
+      "title": "Paper Moon",
+      "slug": "portfolio-10",
+      "developer": "Fictional Studio",
+      "releaseYear": 2024,
+      "firstReleaseDate": 1610323200,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Indie",
+        "Simulator"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2NlZGE4YyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzMzNWI0NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMTcwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2NlZGE4YyIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzMzNWI0NSIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjMzM1YjQ1IiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiMzMzViNDUiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPlBBUEVSIE1PT048L3RleHQ+PHRleHQgeD0iMzAiIHk9IjQzNyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii42NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGxldHRlci1zcGFjaW5nPSIzIj5BIEZJQ1RJT05BTCBBRFZFTlRVUkU8L3RleHQ+PC9zdmc+",
+      "coverColor": "#335b45",
+      "timeToBeat": {
+        "finish": 24,
+        "master": 42
+      },
+      "addedAt": 1793275200000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990012,
+      "title": "Northbound",
+      "slug": "portfolio-11",
+      "developer": "Fictional Studio",
+      "releaseYear": 2025,
+      "firstReleaseDate": 1610409600,
+      "summary": "A fictional game created to demonstrate Gamelog’s library and journal. All catalog details and play records in this sample are illustrative.",
+      "genres": [
+        "Adventure",
+        "Shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "coverUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgMzYwIDQ4MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMC43IiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2UzOTU2OCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY0Mzc0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDgwIiBmaWxsPSJ1cmwoI2cpIi8+PGNpcmNsZSBjeD0iMjMwIiBjeT0iMTg1IiByPSI5MCIgZmlsbD0iI2UzOTU2OCIgb3BhY2l0eT0iLjY1Ii8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTk1IiByPSI2NCIgZmlsbD0iIzY0Mzc0MyIgb3BhY2l0eT0iLjYiLz48cGF0aCBkPSJNLTIwIDM2MCAxNjAgMTkwIDM5MCA0MDBWNDgwSDBaIiBmaWxsPSIjNjQzNzQzIiBvcGFjaXR5PSIuNyIvPjxwYXRoIGQ9Ik0tMjAgNDEwIDI1MCAyMjAgMzkwIDQwMFY0ODBIMFoiIGZpbGw9IiM2NDM3NDMiIG9wYWNpdHk9Ii42NSIvPjx0ZXh0IHg9IjI4IiB5PSI0MiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii44IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGV0dGVyLXNwYWNpbmc9IjQiPkdBTUVMT0cgT1JJR0lOQUxTPC90ZXh0Pjx0ZXh0IHg9IjI4IiB5PSI0MDciIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMiIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPk5PUlRIQk9VTkQ8L3RleHQ+PHRleHQgeD0iMzAiIHk9IjQzNyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9Ii42NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGxldHRlci1zcGFjaW5nPSIzIj5BIEZJQ1RJT05BTCBBRFZFTlRVUkU8L3RleHQ+PC9zdmc+",
+      "coverColor": "#643743",
+      "timeToBeat": {
+        "finish": 26,
+        "master": 45
+      },
+      "addedAt": 1793188800000,
+      "updatedAt": 1794139200000
+    }
+  ],
+  "logs": [
+    {
+      "igdbId": 990001,
+      "status": "Playing",
+      "rating": 4.5,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 4,
+      "notes": "Take the scenic route next time. There is still a lot left to explore.",
+      "playSessions": [
+        {
+          "date": "2026-11-01",
+          "durationMinutes": 30
+        },
+        {
+          "date": "2026-11-02",
+          "durationMinutes": 30
+        },
+        {
+          "date": "2026-11-03",
+          "durationMinutes": 30
+        },
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 30
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 30
+        }
+      ],
+      "createdAt": 1794139200000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990002,
+      "status": "Playing",
+      "rating": 4.5,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 7,
+      "notes": "Take the scenic route next time. There is still a lot left to explore.",
+      "playSessions": [
+        {
+          "date": "2026-11-02",
+          "durationMinutes": 40
+        },
+        {
+          "date": "2026-11-03",
+          "durationMinutes": 40
+        },
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 40
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 40
+        },
+        {
+          "date": "2026-11-06",
+          "durationMinutes": 40
+        }
+      ],
+      "createdAt": 1794052800000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990003,
+      "status": "Playing",
+      "rating": 4.5,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 10,
+      "notes": "Take the scenic route next time. There is still a lot left to explore.",
+      "playSessions": [
+        {
+          "date": "2026-11-03",
+          "durationMinutes": 50
+        },
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 50
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 50
+        },
+        {
+          "date": "2026-11-06",
+          "durationMinutes": 50
+        },
+        {
+          "date": "2026-11-07",
+          "durationMinutes": 50
+        }
+      ],
+      "createdAt": 1793966400000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990004,
+      "status": "Backlog",
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 0,
+      "notes": "",
+      "playSessions": [],
+      "createdAt": 1793880000000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990005,
+      "status": "Backlog",
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 0,
+      "notes": "",
+      "playSessions": [],
+      "createdAt": 1793793600000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990006,
+      "status": "Backlog",
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 0,
+      "notes": "",
+      "playSessions": [],
+      "createdAt": 1793707200000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990007,
+      "status": "Backlog",
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 0,
+      "notes": "",
+      "playSessions": [],
+      "createdAt": 1793620800000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990008,
+      "status": "Played",
+      "completion": "Completed",
+      "finishedAt": "2026-10-19",
+      "rating": 4.5,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 19,
+      "notes": "",
+      "playSessions": [
+        {
+          "date": "2026-11-01",
+          "durationMinutes": 100
+        },
+        {
+          "date": "2026-11-02",
+          "durationMinutes": 100
+        },
+        {
+          "date": "2026-11-03",
+          "durationMinutes": 100
+        },
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 100
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 100
+        }
+      ],
+      "createdAt": 1793534400000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990009,
+      "status": "Played",
+      "completion": "Completed",
+      "finishedAt": "2026-10-20",
+      "rating": 4,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 20,
+      "notes": "",
+      "playSessions": [
+        {
+          "date": "2026-11-02",
+          "durationMinutes": 110
+        },
+        {
+          "date": "2026-11-03",
+          "durationMinutes": 110
+        },
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 110
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 110
+        },
+        {
+          "date": "2026-11-06",
+          "durationMinutes": 110
+        }
+      ],
+      "createdAt": 1793448000000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990010,
+      "status": "Played",
+      "completion": "Completed",
+      "finishedAt": "2026-10-21",
+      "rating": 4.5,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 21,
+      "notes": "",
+      "playSessions": [
+        {
+          "date": "2026-11-03",
+          "durationMinutes": 120
+        },
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 120
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 120
+        },
+        {
+          "date": "2026-11-06",
+          "durationMinutes": 120
+        },
+        {
+          "date": "2026-11-07",
+          "durationMinutes": 120
+        }
+      ],
+      "createdAt": 1793361600000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990011,
+      "status": "Played",
+      "completion": "Completed",
+      "finishedAt": "2026-10-22",
+      "rating": 4,
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 22,
+      "notes": "",
+      "playSessions": [
+        {
+          "date": "2026-11-04",
+          "durationMinutes": 130
+        },
+        {
+          "date": "2026-11-05",
+          "durationMinutes": 130
+        },
+        {
+          "date": "2026-11-06",
+          "durationMinutes": 130
+        },
+        {
+          "date": "2026-11-07",
+          "durationMinutes": 130
+        },
+        {
+          "date": "2026-11-01",
+          "durationMinutes": 130
+        }
+      ],
+      "createdAt": 1793275200000,
+      "updatedAt": 1794139200000
+    },
+    {
+      "igdbId": 990012,
+      "status": "Wishlist",
+      "platform": "PC",
+      "ownership": [
+        "Digital"
+      ],
+      "timePlayed": 0,
+      "notes": "",
+      "playSessions": [],
+      "createdAt": 1793188800000,
+      "updatedAt": 1794139200000
+    }
+  ],
+  "lists": [
+    {
+      "id": "weekend-escapes",
+      "name": "Weekend escapes",
+      "isRanked": false,
+      "gameIds": [
+        990001,
+        990002,
+        990003,
+        990004,
+        990005,
+        990006
+      ],
+      "createdAt": 1794139200000,
+      "updatedAt": 1794139200000
+    }
+  ],
+  "tags": []
+}
