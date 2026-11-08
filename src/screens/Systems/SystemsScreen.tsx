@@ -156,6 +156,9 @@ function SystemDirectory({
   const update = (change: Partial<SystemCatalogFilters>) =>
     setFilters((prev) => ({ ...prev, ...change }));
   useEffect(() => {
+    // Initial/restored filters already match the displayed query. Scheduling a
+    // reset here could send a fast pagination request back to the first page.
+    if (!pending) return;
     setSelected(new Set());
     lastSelected.current = null;
     const timer = setTimeout(() => {
@@ -165,7 +168,7 @@ function SystemDirectory({
       }
     }, 350);
     return () => clearTimeout(timer);
-  }, [filters]);
+  }, [filters, pending]);
   useEffect(() => {
     if (libraryKey === null) return;
     const controller = new AbortController();

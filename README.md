@@ -1,5 +1,7 @@
 # Gamelog
 
+[![Project checks](https://github.com/ESm000ve/Gamelog-Windows-Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/ESm000ve/Gamelog-Windows-Portfolio/actions/workflows/ci.yml)
+
 ### A considered home for your games, your play history, and what comes next.
 
 Gamelog is a Windows desktop app for organizing a game library, keeping a play journal, and choosing what to play. It brings collection management and personal reflection into one local-first experience, with optional AI assistance under the player's control.

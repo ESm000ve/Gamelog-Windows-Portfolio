@@ -1,5 +1,7 @@
 # Publish a clean GitHub repository
 
+The Windows portfolio is published at [ESm000ve/Gamelog-Windows-Portfolio](https://github.com/ESm000ve/Gamelog-Windows-Portfolio). The local Git working copy for that repository is `release/github-source/`.
+
 ## Existing checkout
 
 The preparation audit found IGDB client credentials in an old commit. The original history is retained locally to preserve ongoing work. **Do not push this checkout's branches or tags.** Removing today's `.env` does not clean historical commits.

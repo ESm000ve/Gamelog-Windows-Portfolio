@@ -162,6 +162,34 @@ test("pagination retries the failed page while keeping loaded games", async ({ p
   await expect(page.getByRole("button", { name: "Mountain Quest", exact: true })).toHaveCount(1);
   expect(offsets.slice(-2)).toEqual(["50", "50"]);
 });
+test("rapid pagination survives the initial filter debounce window", async ({ page }) => {
+  const start = new Date("2026-11-08T12:00:00Z");
+  await page.clock.install({ time: start });
+  await page.clock.pauseAt(new Date(start.getTime() + 1000));
+  const offsets: string[] = [];
+  await page.route("**/api/igdb/platform-games?**", (route) => {
+    const offset = new URL(route.request().url()).searchParams.get("offset")!;
+    offsets.push(offset);
+    return route.fulfill({
+      json:
+        offset === "0"
+          ? { games: [games[0]], hasMore: true }
+          : { games: [games[1]], hasMore: false },
+    });
+  });
+  await page.goto("/systems/167?name=PlayStation%205");
+  // Let React reveal the deferred screen while keeping the startup debounce pending.
+  await page.clock.runFor(300);
+  await expect(page.getByRole("button", { name: "Mountain Quest", exact: true })).toBeVisible();
+  // The test clock is paused so the page can load before any debounce expires.
+  await page.getByRole("button", { name: "Load more games", exact: true }).click({ force: true });
+  await expect(page.getByRole("button", { name: "Garden Days", exact: true })).toBeVisible();
+  await page.clock.runFor(600);
+  await expect(page.getByRole("button", { name: "Mountain Quest", exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Garden Days", exact: true })).toBeVisible();
+  expect(offsets).toEqual(["0", "50"]);
+});
+
 test("quick rating saves the personal rating and keeps catalog actions usable", async ({
   page,
 }) => {
