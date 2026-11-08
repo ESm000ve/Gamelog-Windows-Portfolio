@@ -14,6 +14,16 @@ _Actual production app. All screenshots use fictional games, original sample art
 
 [Read the design case study](docs/CASE-STUDY.md) · [Explore the design system](docs/design-system/README.md) · [Run it locally](#run-it-locally)
 
+## Design system in Figma
+
+[**Open the editable Windows design system →**](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=12-2)
+
+The companion Figma library documents foundations, component states, interaction patterns and design-to-code mappings. The repository includes 16 presentation boards, four prototype screens, theme tokens, licensed Fluent icons and an offline viewer.
+
+[![Gamelog Windows design-system cover](docs/design-system/preview/boards/00-cover.png)](docs/design-system/README.md)
+
+[Browse the design-system documentation](docs/design-system/README.md) · [Figma portfolio boards](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=13-11) · [Figma prototype](https://www.figma.com/proto/PFC9DSki5Eyil4oRWc0x7k?node-id=10-40&starting-point-node-id=10%3A40)
+
 ## The product idea
 
 A growing game library can become a list of decisions postponed. Gamelog connects three jobs: **organize what you own, remember what you played, and decide what deserves your next session.**

@@ -56,6 +56,8 @@ Semantic color roles, a shared type scale, spacing and radius tokens, and common
 
 [Design-system source map and tokens](design-system/README.md)
 
+The [editable Figma design system](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=12-2) includes component states and Light/Dark foundations. Explore the [portfolio boards](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=13-11), [browse-to-save prototype](https://www.figma.com/proto/PFC9DSki5Eyil4oRWc0x7k?node-id=10-40&starting-point-node-id=10%3A40), or the [exported boards and offline viewer](design-system/README.md) in this repository.
+
 ## Evidence and limits
 
 The deliverable is a working app with checks for data integrity, API behavior, keyboard interactions, navigation, themes, responsive containment and desktop persistence. Screenshots are reproducible production captures with fictional content. These establish implemented behavior; they do not establish desirability, adoption or task-efficiency improvements.

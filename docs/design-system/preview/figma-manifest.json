@@ -1,0 +1,99 @@
+{
+  "fileName": "Gamelog · Windows Design System",
+  "fileKey": "PFC9DSki5Eyil4oRWc0x7k",
+  "fileUrl": "https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=12-2",
+  "portfolioUrl": "https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=13-11",
+  "prototypeUrl": "https://www.figma.com/proto/PFC9DSki5Eyil4oRWc0x7k?node-id=10-40&starting-point-node-id=10%3A40",
+  "created": "2026-11-06",
+  "status": "Editable v1 review library; not team-published",
+  "counts": {
+    "pages": 10,
+    "variables": 133,
+    "uiFamilies": 17,
+    "componentSets": 12,
+    "componentMasters": 131,
+    "fluentIcons": 14,
+    "textStyles": 10,
+    "effectStyles": 4,
+    "reviewFrames": 16,
+    "prototypeFrames": 4,
+    "prototypeLinks": 6
+  },
+  "font": {
+    "figma": "Inter (user approved substitute)",
+    "implementation": "Segoe UI Variable"
+  },
+  "pages": {
+    "00 · Start here": "0:1",
+    "01 · Foundations": "3:2",
+    "02 · Actions": "3:3",
+    "03 · Inputs & selection": "3:4",
+    "04 · Navigation": "3:5",
+    "05 · Content & status": "3:6",
+    "06 · Overlays & feedback": "3:7",
+    "07 · UX patterns": "3:8",
+    "08 · Accessibility & governance": "3:9",
+    "09 · Portfolio": "3:10"
+  },
+  "componentSets": {
+    "actions": {
+      "Primary": "4:38",
+      "Secondary": "4:75",
+      "Subtle": "4:112",
+      "Danger": "4:149"
+    },
+    "inputs": {
+      "Input": "5:68",
+      "Selection": "5:90",
+      "Select": "5:91"
+    },
+    "navigation": {
+      "Item": "7:18",
+      "Tab": "7:28",
+      "Header": "7:29"
+    },
+    "content": {
+      "Badge": "8:18",
+      "GameRow": "8:19",
+      "EmptyState": "8:25"
+    },
+    "overlays": {
+      "Dialog": "9:60",
+      "MenuItem": "9:71",
+      "Notice": "9:88",
+      "Progress": "9:89"
+    }
+  },
+  "prototype": {
+    "reviewFrame": "10:2",
+    "prototypeFrames": {
+      "browse": "10:40",
+      "detail": "10:53",
+      "draft": "10:67",
+      "saved": "10:87"
+    },
+    "hotspots": {
+      "view": "10:51",
+      "add": "10:63",
+      "back": "10:65",
+      "save": "10:83",
+      "cancel": "10:85",
+      "return": "10:97"
+    }
+  },
+  "validation": {
+    "layoutOverflow": 0,
+    "invalidGeometry": 0,
+    "duplicateVariants": 0,
+    "unstyledText": 0,
+    "unscopedVariables": 0,
+    "variablesWithoutCodeSyntax": 0,
+    "codeConnect": "Manual source map, not enabled"
+  },
+  "limits": [
+    "Figma specimens represent states; they are not a full runtime app.",
+    "Only prototype primary action paths are connected; select fields are illustrative.",
+    "Selected source contrast pairs were checked; no full accessibility certification is claimed.",
+    "No formal participant study or measured user-impact improvement is claimed."
+  ]
+}

@@ -1,6 +1,50 @@
 # Gamelog design system
 
+[**Open the editable Figma design system →**](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=12-2)
+
+[Portfolio presentation boards](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=13-11) · [Browse-to-save prototype](https://www.figma.com/proto/PFC9DSki5Eyil4oRWc0x7k?node-id=10-40&starting-point-node-id=10%3A40) · [Offline viewer](preview/README.md) · [File and node manifest](figma-manifest.json)
+
 The Windows experience builds on Microsoft Fluent UI with project-specific semantic tokens, interaction patterns and page composition. The source is the authority for the functioning app.
+
+![Gamelog Windows design-system overview: principles, reusable components and file navigation](preview/boards/00-cover.png)
+
+## What is included
+
+The v1 Figma snapshot contains 10 pages, 133 variables with Light/Dark semantic modes, 10 text styles, four effect styles, and 17 UI families. Its 131 component masters include 14 Microsoft Fluent icons. The library is editable in Figma; it is a review library, not a published team library.
+
+This repository includes the exported references so reviewers can explore the system without opening Figma:
+
+- **16 presentation boards:** overview, Light/Dark foundations, actions, inputs, navigation, content/status, overlays, UX patterns, accessibility, governance, source mapping, and four portfolio narrative boards.
+- **Four prototype screens:** browse, game details, review draft, and saved state. The offline viewer connects their primary actions using fictional content.
+- **CSS and JSON tokens:** source-derived snapshots for Windows themes and shared foundations.
+- **14 Fluent SVG icons:** with their upstream MIT license.
+- **Handoff notes and a manifest:** file/node links, scope, fonts, and representation limits.
+
+The editable components and variables remain in the [Figma file](https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=12-2). These PNGs and the viewer are reference exports; a native `.fig` file is not included. Figma access follows the file owner's sharing settings.
+
+## Selected boards
+
+| Foundations                                                                      | Actions and interaction states                                                                |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [![Light foundations](preview/boards/01-light.png)](preview/boards/01-light.png) | [![Action variants and states](preview/boards/02-actions.png)](preview/boards/02-actions.png) |
+
+| Product decisions                                                                                     | Design-to-code mapping                                                                               |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [![Design decisions and tradeoffs](preview/boards/09-decisions.png)](preview/boards/09-decisions.png) | [![Design-to-code source map](preview/boards/08-integration.png)](preview/boards/08-integration.png) |
+
+## Explore locally
+
+After downloading or cloning the repository, open [`preview/index.html`](preview/index.html) in your browser. Keep its surrounding files and folders together. GitHub displays the HTML source; download it to use the interactive viewer.
+
+Alternatively, from the project root:
+
+```sh
+node docs/design-system/serve-preview.mjs
+```
+
+Open `http://127.0.0.1:5192`. The viewer supports board search, previous/next navigation, actual-size display, PNG downloads, and the four-screen illustrative flow. It needs no API keys. Its prototype fields are static examples and do not save library records.
+
+## Design-to-code source map
 
 | Foundation or pattern                   | Source                                                     |
 | --------------------------------------- | ---------------------------------------------------------- |

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gamelog · Windows design system</title>
+    <meta
+      name="description"
+      content="Browse the Gamelog Windows design system, portfolio boards, reusable component references and interaction prototype."
+    />
+    <link rel="icon" href="favicon.svg" />
+    <link rel="stylesheet" href="preview.css" />
+    <script src="preview.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to board</a>
+    <header class="topbar">
+      <a href="#00-cover" class="brand"
+        ><img src="favicon.svg" width="24" height="24" alt="" /><strong>Gamelog</strong
+        ><span>Design system</span></a
+      ><span class="edition">Windows · v1.0</span>
+      <div class="header-actions">
+        <button id="prototype-link">Try prototype</button
+        ><a
+          class="button"
+          href="https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k?node-id=12-2"
+          target="_blank"
+          rel="noopener"
+          >Open Figma</a
+        ><a id="pack-link" class="button primary" href="../README.md">Design system guide</a>
+      </div>
+    </header>
+    <div class="workspace">
+      <aside>
+        <details id="navigation" open>
+          <summary>Browse the system</summary>
+          <label class="search-label" for="filter">Find a board</label
+          ><input
+            id="filter"
+            type="search"
+            placeholder="Components, patterns, portfolio…"
+            autocomplete="off"
+          />
+          <nav id="board-nav" aria-label="Design-system boards"></nav>
+          <p id="no-results" hidden>No boards match. Try another term.</p>
+        </details>
+        <div class="rail-footer">
+          <a href="tokens/windows.tokens.json" download>Tokens · JSON</a
+          ><a href="tokens/windows.tokens.css" download>Tokens · CSS</a
+          ><a href="FIGMA-HANDOFF.md" download>Handoff notes</a>
+        </div>
+      </aside>
+      <main id="main" tabindex="-1">
+        <div class="page-heading">
+          <div>
+            <p id="category" class="eyebrow"></p>
+            <h1 id="board-title"></h1>
+            <p id="board-description" class="description"></p>
+          </div>
+          <span class="tag">Figma export</span>
+        </div>
+        <div class="toolbar">
+          <div class="segmented" role="group" aria-label="Board display size">
+            <button id="fit" aria-pressed="true">Fit width</button
+            ><button id="actual" aria-pressed="false">Actual size</button>
+          </div>
+          <a id="png-link" class="button" download>Download PNG</a><span id="page-count"></span>
+          <div class="stepper">
+            <button id="previous" aria-label="Previous board">Previous</button
+            ><button id="next" aria-label="Next board">Next</button>
+          </div>
+        </div>
+        <div id="prototype-note" class="notice" hidden>
+          <strong>Illustrative prototype</strong>
+          <p>
+            Click the action buttons on the screen to move through the flow. Other fields are
+            static. No personal library data is read or saved.
+          </p>
+          <button id="restart">Restart flow</button>
+        </div>
+        <div class="canvas" id="canvas">
+          <div class="board-wrap" id="board-wrap">
+            <img id="board-image" alt="" />
+            <div id="hotspots"></div>
+          </div>
+        </div>
+        <footer class="main-footer">
+          <p>
+            <strong>Built from the Windows app.</strong> These are faithful board exports for
+            review. Editable components and variables live in
+            <a
+              href="https://www.figma.com/design/PFC9DSki5Eyil4oRWc0x7k"
+              target="_blank"
+              rel="noopener"
+              >Figma</a
+            >.
+          </p>
+          <p>
+            Inter is the approved Figma substitute; the app uses Segoe UI Variable. Formal research
+            outcomes and full accessibility certification are not claimed.
+          </p>
+          <p id="offline-note" hidden>
+            Offline pack · all boards and the simulated flow work locally. Internet is only needed
+            to open Figma.
+          </p>
+        </footer>
+      </main>
+    </div>
+    <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  </body>
+</html>
